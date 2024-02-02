@@ -16,9 +16,8 @@ export default function DayListItem({day}:DayListItem) {
 const styles = StyleSheet.create({
     box: {
       backgroundColor:'#F9EDE3',
-      // width:300,
-      // height:300,
       flex:1,
+      aspectRatio:1,
       justifyContent:'center',
       alignItems:'center',
       borderWidth: StyleSheet.hairlineWidth,
@@ -29,5 +28,6 @@ const styles = StyleSheet.create({
     text:{
       color:'#9B4521',
       fontSize:70,
+      fontFamily:'AmaticBold'
     },
   });
